@@ -1,0 +1,40 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: rgb(0, 0, 0); /* Web sayfasının arka plan rengi */
+    color: #f00000; /* Metin rengi */
+}
+
+h1 {
+    color: #0003a8; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+    30% {
+        color: cyan;
+    }
+    50% {
+        color: red;
+    }
+    70% {
+        color: yellow;
+    }
+    100% {
+        color: blue;
+    }
+}
+h1 {
+    animation: color-change 2s infinite;
+}
+h2 {
+    animation: color-change 4s infinite;
+}
+p {
+    animation: color-change 10s infinite;
+}
+
+@keyframes color-change-2
